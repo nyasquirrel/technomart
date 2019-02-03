@@ -1,0 +1,3 @@
+# Настройка apache
+Options Indexes FollowSymLinks
+DirectoryIndex index.php
