@@ -337,8 +337,8 @@ nav {
 	color: #fff;
 	width: 100px;
 	position: absolute;
-	right: -25px;
-	top: 0;
+    right: -28px;
+    top: 4px;
 }
 .promo-item img {
 	position: absolute;
