@@ -72,10 +72,11 @@ em, i {
 }
 .form-search:hover .icon-search {
 	fill: rgba(255, 255, 255, 1);
-	transition: 0.2s;
+	transition: 0.1s;
 }
-.form-search input:focus .icon-search {
+.form-search input:focus + button .icon-search {
 	fill: rgba(255, 83, 87, 1);
+	transition: 0.1s;
 }
 .container {
 	display: flex;
@@ -254,9 +255,6 @@ a:active .icon-cart {
 	padding: 10px 27px 10px 50px;
 	background-color: #fff;
 }
-.loginhover {
-	color: #ff5357;
-}
 .icon-phone {
 	position: absolute;
 	top: 10px;
@@ -280,7 +278,7 @@ a:active .icon-cart {
 	top: 14px;
 	left: 14px;
 }
-.login:hover path {
+a:hover .icon-login path {
 	fill: #32425c;
 }
 .registration a:hover {
@@ -384,6 +382,12 @@ nav {
 	font-size: 14px;
 	background-color: rgba(0,0,0,0.1);
 	border-radius: 5px;
+}
+.promo-item a:hover {
+	background-color: rgba(0,0,0,0.2);
+}
+.promo-item a:active {
+	background-color: rgba(0,0,0,0.3);
 }
 .promo-stock {
 	position: relative;
