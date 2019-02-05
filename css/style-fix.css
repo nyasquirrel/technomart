@@ -92,6 +92,7 @@ em, i {
 	margin: 0;
 }
 .top-menu li {
+	position: relative;
 	width: 150px;
 	display: inline-block;
 	list-style: none;
@@ -101,15 +102,15 @@ em, i {
 .top-menu li:last-child {
 	margin-right: 0;
 }
-.top-menu li a {
+.top-menu a {
 	display: block;
 	padding: 12px 30px 12px 40px;
 	white-space: nowrap;
 }
-.top-menu li a:hover {
+.top-menu a:hover {
 	background-color: #212a3a;
 }
-.top-menu li a:active {
+.top-menu a:active {
 	background-color: #161d29;
 }
 
@@ -122,6 +123,29 @@ em, i {
 }
 .top-menu li:last-child a:active {
 	background-color: #518534;
+}
+.top-menu__icons {
+	position: absolute;
+	top: 12px;
+	left: 17px;
+}
+.icon-bookmark {
+	fill: rgba(255, 255, 255, 0.3);
+}
+a:hover .icon-bookmark {
+	fill: rgba(255, 255, 255, 1);
+}
+a:active .icon-bookmark {
+	fill: rgba(255, 255, 255, 0.5);
+}
+.icon-cart {
+	fill: rgba(255, 255, 255, 0.3);
+}
+a:hover .icon-cart {
+	fill: rgba(255, 255, 255, 1);
+}
+a:active .icon-cart {
+	fill: rgba(255, 255, 255, 0.5);
 }
 .logo {
 	width: 220px;
@@ -179,7 +203,7 @@ em, i {
 	display: flex;
 	flex: 1 0 auto;
 	width: 940px;
-	align-items: center;
+	align-items: flex-start;
 	margin-bottom: 45px;
 }
 .title-text {
@@ -188,6 +212,7 @@ em, i {
 	padding: 0 50px;
 	color: #ee434f;
 	line-height: 23px;
+	font-size: 16px;
 }
 .title-contacts {
 	display: flex;
@@ -195,10 +220,11 @@ em, i {
 }
 .title-number {
 	border: 3px solid #fff;
+	margin-bottom: 5px;
 }
 .title-number a {
 	display: block;
-	padding: 10px 50px;
+	padding: 7px 50px;
 	text-decoration: none;
 	text-align: center;
 	color: #ee434f;
@@ -223,20 +249,22 @@ em, i {
 }
 .login a {
 	display: block;
-	padding: 13px 27px 13px 50px;
+	padding: 10px 27px 10px 50px;
 	background-color: #fff;
 }
 .title-address {
 	text-align: center;
 	color: #32425c;
 	font-size: 14px;
+	line-height: 24px;
+	vertical-align: baseline;
 }
 .registration {
 	margin-left: 10px;
 }
 .registration a {
 	display: block;
-	padding: 15px 25px;
+	padding: 10px 25px;
 	background-color: #fff;
 }
 nav {
