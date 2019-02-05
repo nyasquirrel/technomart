@@ -219,12 +219,13 @@ a:active .icon-cart {
 	flex-direction: column;
 }
 .title-number {
+	position: relative;
 	border: 3px solid #fff;
 	margin-bottom: 5px;
 }
 .title-number a {
 	display: block;
-	padding: 7px 50px;
+	padding: 7px 50px 7px 70px;
 	text-decoration: none;
 	text-align: center;
 	color: #ee434f;
@@ -240,6 +241,7 @@ a:active .icon-cart {
 	text-decoration: none;
 	color: #000;
 	font-size: 21px;
+	position: relative;
 }
 .user-block a:hover {
 	color: #ee3643;
@@ -247,10 +249,18 @@ a:active .icon-cart {
 .user-block a:active {
 	color: #b2b2b2;
 }
-.login a {
+.login {
 	display: block;
 	padding: 10px 27px 10px 50px;
 	background-color: #fff;
+}
+.loginhover {
+	color: #ff5357;
+}
+.icon-phone {
+	position: absolute;
+	top: 10px;
+	left: 13px;
 }
 .title-address {
 	text-align: center;
@@ -261,11 +271,20 @@ a:active .icon-cart {
 }
 .registration {
 	margin-left: 10px;
-}
-.registration a {
 	display: block;
 	padding: 10px 25px;
 	background-color: #fff;
+}
+.icon-login {
+	position: absolute;
+	top: 14px;
+	left: 14px;
+}
+.login:hover path {
+	fill: #32425c;
+}
+.registration a:hover {
+	color: #ff5357;
 }
 nav {
 	width: 100%;
