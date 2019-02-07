@@ -325,6 +325,7 @@ nav {
 	display: flex;
 	flex-direction: column;
 	margin-top: 60px;
+	margin-bottom: 50px;
 }
 .promo-items-wrap {
 	display: flex;
@@ -332,6 +333,7 @@ nav {
 }
 .promo-items.col-1 {
 	width: 620px;
+	justify-content: space-between;
 }
 .promo-items.col-2 {
 	width: 300px;
@@ -341,10 +343,64 @@ nav {
 
 .promo-item {
 	width: 300px;
-	padding: 25px 0 22px 25px;
+	padding: 21px 0 22px 25px;
 	position: relative;
 	box-sizing: border-box;
 	overflow: hidden;
+}
+.slide-item {
+	position: relative;
+}
+.slide-item img.image2 {
+	position: absolute;
+	top: 0;
+}
+.slide-item img.image3 {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 332px;
+}
+.slider {
+	position: relative;
+}
+.red-btn {
+	background-color: #ee3643;
+	padding: 10px 50px;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 4px;
+}
+.red-btn:hover {
+	background-color: #ca2c37;
+}
+.red-btn:active {
+	background-color: #ba2732;
+}
+.slider-btn {
+	position: absolute;
+	bottom: 22px;
+	left: 25px;
+	z-index: 1;
+}
+.slider-future-title {
+	position: absolute;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #fff;
+	top: 25px;
+	left: 25px;
+	z-index: 1;
+	font-size: 36px;
+}
+.slider-future-text {
+	position: absolute;
+	color: #fff;
+	top: 65px;
+	left: 25px;
+	z-index: 1;
+	font-size: 18px;
 }
 .col-2 .promo-item {
 	margin-bottom: 20px;
@@ -363,6 +419,7 @@ nav {
 }
 .col-2 .promo-item:nth-child(3) {
 	background-color: #ffbf47;
+	margin-bottom: 0;
 }
 .promo-item * {
 	color: #fff;
@@ -375,11 +432,12 @@ nav {
 .promo-item a {
 	display: block;
 	width: 135px;
-	padding: 12px 0;
+	padding: 10px 0;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 14px;
+	line-height: 18px;
 	background-color: rgba(0,0,0,0.1);
 	border-radius: 5px;
 }
@@ -419,7 +477,6 @@ nav {
 }
 .populars a {
 	margin-left: auto;
-	padding: 14px 55px;
 }
 .popular-items {
 	display: flex;
@@ -565,4 +622,20 @@ nav {
 }
 .copyright .feedback {
 	margin-right: 50px;
+}
+
+/* caruSEL" */
+.slider .owl-carousel .owl-nav .owl-prev,
+.slider .owl-carousel .owl-nav .owl-next,
+.slider  .owl-carousel .owl-dot {
+	position: absolute;
+	transform: translateY(-50%);
+}
+.owl-prev {
+	top: 50%;
+	left: 0;
+}
+.owl-next {
+	top: 50%;
+	right: 0;
 }

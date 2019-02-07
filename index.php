@@ -4,9 +4,9 @@
 		<meta charset="utf-8">
 		<title>Главная | Техномарт</title>
 		<link rel="stylesheet" href="css\normalize.css">
-		<link rel="stylesheet" href="css\style-fix.css">
 		<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.css">
 <link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.css">
+		<link rel="stylesheet" href="css/style-fix.css">
 	</head>
 	<body>
 		<header class="main-header">
@@ -129,28 +129,24 @@
 						</div>
 					</div>
 					<div class="slider">
-						<div class="owl-carousel">
-						  <div><img> </div>
-						  <div> Your Content </div>
-						  <div> Your Content </div>
-						  <div> Your Content </div>
-						  <div> Your Content </div>
-						  <div> Your Content </div>
-						  <div> Your Content </div>
+						<div class="owl-carousel owl-theme">
+						  <div class="slide-item">
+						  	<img class="image1" src="img/bosch-top-img.jpg">
+						 	<img class="image2" src="img/shadow-bosch-top-img.png">
+						  	<img class="image3" src="img/dalbaebi.png">
+						  	<span class="slider-future-title">Дрели</span>
+							<span class="slider-future-text">Соседям на радость!</span>
+						  </div>
+						  <div class="slide-item">
+						  	<img class="image1" src="img/bosch-top2-img.jpg">
+						  	<img class="image2" src="img/shadow-bosch-top2-img.png">
+						  	<span class="slider-future-title">Перфораторы</span>
+							<span class="slider-future-text">Настоящие мужские игрушки</span></div>
 						</div>
 						<div class="slider-future">
-							<span class="slider-future-title">Дрели</span>
-							<span class="slider-future-text">Соседям на радость!</span>
+							
 						</div>
-						<div class="slider-items">
-							<button class="btn-slider-left">
-								<span class="icon-left"></span>
-							</button>
-							<button class="btn-slider-right">
-								<span class="icon-right"></span>
-							</button>
-							<a href="#">открыть каталог</a>
-						</div>
+						<a class="red-btn slider-btn" href="#">открыть каталог</a>
 					</div>
 				</section>
 				<section class="promo-items col-2">
@@ -174,7 +170,7 @@
 			<div class="container">
 				<section class="populars">
 					<span>Популярные товары:</span>
-					<a href="#">все полуряные товары</a>
+					<a class="red-btn" href="#">все полуряные товары</a>
 				</section>
 				<section class="popular-items">
 					<article class="pop-item">
@@ -204,7 +200,7 @@
 				</section>
 				<section class="populars">
 					<span>Популярные производители:</span>
-					<a href="#">все производители</a>
+					<a class="red-btn" href="#">все производители</a>
 				</section>
 				<section class="pop-manufacturers">
 					<div class="pop-manufacturer">
@@ -290,7 +286,7 @@
 								<span>ТЕХНОМАРТ</span>
 							</a>
 						</div>
-						<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> +7 (812) 555-05-</p>
+						<p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br> +7 (812) 555-05-55</p>
 					</section>
 					<section class="footer-navigation">
 						<ul class="foot-nav-menu">
