@@ -5,6 +5,8 @@
 		<title>Главная | Техномарт</title>
 		<link rel="stylesheet" href="css\normalize.css">
 		<link rel="stylesheet" href="css\style-fix.css">
+		<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.css">
+<link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.css">
 	</head>
 	<body>
 		<header class="main-header">
@@ -127,8 +129,14 @@
 						</div>
 					</div>
 					<div class="slider">
-						<div class="slider-content">
-								<img src="#" height="266" width="620" alt="Слайдер 1">
+						<div class="owl-carousel">
+						  <div><img> </div>
+						  <div> Your Content </div>
+						  <div> Your Content </div>
+						  <div> Your Content </div>
+						  <div> Your Content </div>
+						  <div> Your Content </div>
+						  <div> Your Content </div>
 						</div>
 						<div class="slider-future">
 							<span class="slider-future-title">Дрели</span>
@@ -324,6 +332,9 @@
 					</section>
 				</div>
 			</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="libs/owlcarousel/owl.carousel.min.js"></script>
+		<script src="js/main.js"></script>
 		</footer>
 	</body>
 </html>
