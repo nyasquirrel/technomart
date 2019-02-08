@@ -131,9 +131,7 @@
 					<div class="slider">
 						<div class="owl-carousel owl-theme">
 						  <div class="slide-item">
-						  	<img class="image1" src="img/bosch-top-img.jpg">
-						 	<img class="image2" src="img/shadow-bosch-top-img.png">
-						  	<img class="image3" src="img/dalbaebi.png">
+						  	<img class="image1" src="img/bosch-img.jpg">
 						  	<span class="slider-future-title">Дрели</span>
 							<span class="slider-future-text">Соседям на радость!</span>
 						  </div>
@@ -146,7 +144,7 @@
 						<div class="slider-future">
 							
 						</div>
-						<a class="red-btn slider-btn" href="index-other-slider.php">слайдер с 1 картинкой</a>
+						<a class="red-btn slider-btn" href="#">открыть каталог</a>
 					</div>
 				</section>
 				<section class="promo-items col-2">
