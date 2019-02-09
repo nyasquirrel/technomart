@@ -424,7 +424,7 @@ nav {
 .promo-item * {
 	color: #fff;
 }
-.promo-item span {
+.promo-item__promo-title {
 	display: block;
 	margin-bottom: 15px;
 	font-size: 24px;
@@ -450,30 +450,40 @@ nav {
 .promo-stock {
 	position: relative;
 }
-.promo-item.promo-stock::after {
+.promo-stock::after {
 	content: "new";
 	text-align: center;
-	padding: 7px 0;
+	padding: 2px 0 6px;
 	transform: rotate(45deg);
 	background-color: #ff5357;
 	color: #fff;
 	width: 100px;
 	position: absolute;
-    right: -28px;
-    top: 4px;
+    right: -30px;
+    top: 5px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16px;
+    line-height: 16px;
 }
-.promo-item img {
+.promo-item__promo-icon {
 	position: absolute;
 	top: 50%;
-	right: 70px;
-	margin: -8px;
+	right: 65px;
+	transform: translate(50%,-50%);
 }
 .populars {
 	display: flex;
 	width: 100%;
-	padding: 25px 24px 25px 30px;
+	padding: 25px 24px 26px 30px;
 	align-items: center;
 	margin-bottom: 20px;
+	background-color: #f9f5f0;
+}
+.populars span {
+	font-size: 30px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #32425c;
 }
 .populars a {
 	margin-left: auto;
@@ -489,11 +499,57 @@ nav {
 	display: flex;
 	flex-direction: column;
 	width: 220px;
-	padding: 20px 30px;
 	box-sizing: border-box;
+	overflow: hidden;
+	border: 1px solid #eaeaea;
+	font-family: "PT Sans Bold", sans-serif;
+	padding: 20px 10px;
 }
-.pop-item span {
+.pop-item__pop-image {
+	flex-basis: 160px;
+	position: relative;
+}
+.pop-item__pop-image img {
+	position: absolute;
+	top: 50%;
+	right: 50%;
+	transform: translate(50%, -50%);
+}
+.pop-item .item-name {
 	text-align: center;
+	padding: 0 30px;
+	font-size: 18px;
+	margin-bottom: 18px;
+}
+.pop-item .old-price {
+	text-decoration: line-through;
+	color: #a9a9a9;
+	text-align: center;
+	font-size: 17px;
+	margin-bottom: 13px;
+}
+.price-block {
+	position: relative;
+	margin-top: auto;
+	align-self: center;
+}
+.price-block .price {
+	font-size: 17px;
+	line-height: 18px;
+	padding: 10px 20px 10px 35px;
+	background-color: #ee3643;
+	color: #fff;
+	border-radius: 5px;
+}
+.price-block .triangle {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 100%;
+	border-bottom: 30px solid #ee3643;
+    border-left: 20px solid #fff;
+    border-right: 20px solid #fff;
+	transform: rotate(90deg);
 }
 .pop-manufacturers {
 	width: 100%;
