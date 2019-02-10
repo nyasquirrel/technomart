@@ -19,9 +19,15 @@
     cursor: pointer;
     border-radius: 3px; }
     .owl-theme .owl-nav [class*='owl-']:hover {
-      background: #869791;
-      color: #FFF;
-      text-decoration: none; }
+    text-decoration: none; 
+    }
+      .owl-theme .owl-nav [class*='owl-']:hover svg {
+        fill: #dcdcdc;
+      }
+        .owl-theme .owl-nav [class*='owl-']:focus {
+        outline: none;
+        }
+
   .owl-theme .owl-nav .disabled {
     opacity: 0.5;
     cursor: default; }

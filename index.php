@@ -184,6 +184,10 @@
 					<article class="pop-item">
 						<div class="pop-item__pop-image">
 							<img src="img/snippet-32961 copy 3.jpg"alt="Перфоратор BOSCH BFG 9000">
+							<div class="pop-item__buttons">
+								<button class="pop-item__in-cart">Купить</button>
+								<button class="pop-item__in-bookmarks">В закладки</button>
+							</div>
 						</div>
 						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
 						<span class="old-price">32 500 Р.</span>
@@ -229,30 +233,30 @@
 					<a class="red-btn" href="#">все производители</a>
 				</section>
 				<section class="pop-manufacturers">
-					<div class="pop-manufacturer">
-					<img src="#" height="37" width="126" alt="bosch">
-					</div>
-					<div class="pop-manufacturer">
-					<img src="#" height="40" width="123" alt="makita">
-					</div>
-					<div class="pop-manufacturer">
-					<img src="#" height="44" width="146" alt="dewalt">
-					</div>
-					<div class="pop-manufacturer">
-					<img src="#" height="88" width="200" alt="интерскол">
-					</div>
-					<div class="pop-manufacturer">
-					<img src="#" height="31" width="169" alt="hitachi">
-					</div>
-					<div class="pop-manufacturer">
-					<img src="#" height="73" width="121" alt="lg">
-					</div>
-					<div class="pop-manufacturer">
-					<img src="#" height="96" width="151" alt="aeg">
-					</div>
-					<div class="pop-manufacturer">
-					<img src="#" height="69" width="204" alt="metabo">
-					</div>
+					<a href="#" class="pop-manufacturer">
+					<img src="img/bosch.jpg" alt="bosch">
+					</a>
+					<a href="#" class="pop-manufacturer">
+					<img src="img/Makita.jpg" alt="makita">
+					</a>
+					<a href="#" class="pop-manufacturer">
+					<img src="img/DeWALT.jpg" alt="dewalt">
+					</a>
+					<a href="#" class="pop-manufacturer">
+					<img src="img/Интерскол.jpg" alt="интерскол">
+					</a>
+					<a href="#" class="pop-manufacturer">
+					<img src="img/Hitachi.jpg" alt="hitachi">
+					</a>
+					<a href="#" class="pop-manufacturer">
+					<img src="img/LG.jpg" alt="lg">
+					</a>
+					<a href="#" class="pop-manufacturer">
+					<img src="img/AEG.jpg" alt="aeg">
+					</a>
+					<a href="#" class="pop-manufacturer">
+					<img src="img/Metabo.jpg" alt="metabo">
+					</a>
 				</section>
 			</div>
 		</div>

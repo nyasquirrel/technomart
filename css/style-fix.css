@@ -517,7 +517,7 @@ nav {
 }
 .pop-item .item-name {
 	text-align: center;
-	padding: 0 30px;
+	padding: 0 20px;
 	font-size: 18px;
 	margin-bottom: 18px;
 }
@@ -529,45 +529,73 @@ nav {
 	margin-bottom: 13px;
 }
 .price-block {
-	position: relative;
-	margin-top: auto;
-	align-self: center;
+	display: flex;
+    margin-top: auto;
+    padding-left: 30px;
+    align-self: center;
 }
 .price-block .price {
 	font-size: 17px;
-	line-height: 18px;
-	padding: 10px 20px 10px 35px;
-	background-color: #ee3643;
-	color: #fff;
-	border-radius: 5px;
+    line-height: 18px;
+    padding: 10px 20px 10px 35px;
+    background-color: #ee3643;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 .price-block .triangle {
-	content: "";
-	position: absolute;
-	width: 0;
-	height: 100%;
-	border-bottom: 30px solid #ee3643;
-    border-left: 20px solid #fff;
-    border-right: 20px solid #fff;
-	transform: rotate(90deg);
+	border-bottom: 19px solid #ee3643;
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    transform: rotate(90deg);
 }
 .pop-manufacturers {
 	width: 100%;
+	font-size: 0;
 }
 .pop-manufacturer {
 	display: inline-block;
 	width: 220px;
 	height: 145px;
-	margin-right: 16px;
 	margin-bottom: 20px;
+	margin-right: 20px;
 	text-align: center;
 	line-height: 145px;
+	border: 1px solid #eaeaea;
+	box-sizing: border-box;
 }
 .pop-manufacturer:nth-child(4n) {
-	margin-right: -4px;
+	margin-right: 0;
 }
 .pop-manufacturer img {
 	vertical-align: middle;
+}
+.pop-item:hover,
+.pop-manufacturer:hover {
+	box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+	border: 0;
+}
+.pop-item:hover img {
+	visibility: hidden;
+}
+.pop-item__buttons {
+	visibility: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	align-items: center;
+}
+.pop-item__in-cart,
+.pop-item__in-bookmarks {
+	box-sizing: border-box;
+	width: 135px;
+}
+.pop-item:hover button {
+	visibility: visible;
+}
+.pop-manufacturer:active {
+	opacity: 0.3;
 }
 .main-content {
 	margin-bottom: 85px;
@@ -686,6 +714,7 @@ nav {
 .slider  .owl-carousel .owl-dot {
 	position: absolute;
 	transform: translateY(-50%);
+	padding: 50px 7px !important;
 }
 .owl-prev {
 	top: 50%;
