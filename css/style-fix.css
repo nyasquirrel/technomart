@@ -501,7 +501,7 @@ nav {
 	width: 220px;
 	box-sizing: border-box;
 	overflow: hidden;
-	border: 1px solid #eaeaea;
+	outline: 1px solid #eaeaea;
 	font-family: "PT Sans Bold", sans-serif;
 	padding: 20px 10px;
 }
@@ -572,7 +572,7 @@ nav {
 }
 .pop-item:hover,
 .pop-manufacturer:hover {
-	border: 1px solid transparent;
+	outline-color: transparent;
 	box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
 }
 .pop-item:hover img {
@@ -587,12 +587,66 @@ nav {
 	align-items: center;
 	font-size: 14px;
 	line-height: 18px;
+	font-family: "Cuprum", sans-serif;
+	padding-bottom: 30px;
 }
 .pop-item__in-cart,
 .pop-item__in-bookmarks {
 	box-sizing: border-box;
 	width: 135px;
-	padding: 11px 0;
+	height: 38px;
+	padding: 5px 11px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	font-family: inherit;
+}
+.pop-item__in-cart {
+	display: inline-flex;
+	background-color: #63a63e;
+	color: #fff;
+	align-items: center;
+	border: 3px solid transparent;
+	border-bottom: 3px solid #367315;
+	border-right: none;
+	border-left: none;
+	margin-bottom: 7px;
+	position: relative;
+}
+.pop-item__in-cart:hover {
+	background-color: #5fbb2d;
+}
+.pop-item__in-cart:active {
+	background-color: #518534;
+	border-color: #518534;
+}
+.pop-item__in-cart:focus {
+	outline: none;
+}
+.pop-item__in-cart svg {
+	flex: 0 0 auto;
+	fill: #fff;
+}
+.pop-item__in-cart span {
+	flex: 1 1 auto;
+	text-align: center;
+	padding: 0 8px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.pop-item__in-bookmarks {
+	border: 3px solid #63a63e;
+	background-color: #fff;
+	color: #32425c;
+}
+.pop-item__in-bookmarks:hover {
+	border-color: #32425c;
+}
+.pop-item__in-bookmarks:active {
+	/* opacity: 0.3; */
+}
+.pop-item__in-bookmarks:focus {
+	outline: none;
 }
 .pop-item:hover button {
 	visibility: visible;
