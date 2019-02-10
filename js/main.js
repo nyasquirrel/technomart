@@ -1,4 +1,4 @@
-$(document).on('click', '.btn-services__link', toggleTab);
+$(document).on('click', '.tabs .tabs__nav-link', toggleTab);
 
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
@@ -13,10 +13,11 @@ $(document).ready(function(){
 function toggleTab(e) {
     e.preventDefault();
 
-    var activeNavClass = 'btn-services__link--active';
-    var activeBodyClass = 'tabs__item--active';
     var tabItems = $('.tabs__item');
-    var navItems = $('.btn-services__link');
+    var navItems = $('.tabs__nav-link');
+
+    var activeNavClass = 'tabs__nav-link--active';
+    var activeBodyClass = 'tabs__item--active';
 	var tabId = $(this).attr('href');
 
 	$(tabItems).removeClass(activeBodyClass);

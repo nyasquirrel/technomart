@@ -687,6 +687,10 @@ nav {
 }
 .tabs__nav {
 	margin-right: 80px;
+	width: 200px;
+}
+.tabs__nav-link {
+	display: block;
 }
 .tabs__nav ul {
 	position: relative;
@@ -701,8 +705,11 @@ nav {
 	height: 272px;
 }
 .tabs__item {
-	display: flex;
+	display: none;
 	align-items: center;
+}
+.tabs__item--active {
+	display: flex;
 }
 .btm-services {
 	list-style: none;
