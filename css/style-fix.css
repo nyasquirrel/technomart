@@ -687,8 +687,12 @@ nav {
 	min-width: 240px;
 	text-align: left;
 }
+.descr-service__item {
+	width: 280px;
+}
 .descr-services {
-	width: 260px;
+	display: flex;
+/* 	width: 260px; */
 	align-self: center;
 	margin-right: 135px;
 }

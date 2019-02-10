@@ -341,10 +341,11 @@
 					<p class="item-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
 					Ведь мы неплохо заработаем, <br>поднимая его на ваш этаж!</p>
 					</div>
+					<div class="image-services">
+					<img src="img/car.png" width="206" height="145" alt="Доставка">
+					</div>
 				</section>
-				<section class="image-services">
-					<img src="#" width="206" height="145" alt="Доставка">
-				</section>
+				
 			</div>
 		</div>
 		<div class="main-about">
