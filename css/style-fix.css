@@ -657,30 +657,49 @@ nav {
 .main-content {
 	margin-bottom: 85px;
 }
-.servises {
+.services {
 	width: 100%
 }
-.tabs-servises {
+.tabs-services {
 	margin-right: 80px;
 }
-.btm-servises {
+.btm-services {
 	list-style: none;
 }
-.btm-servises button {
+.btm-services button {
 	padding: 20px 0 20px 20px;
 	min-width: 240px;
 	text-align: left;
 }
-.descr-servises {
-	width: 300px;
+.descr-services {
+	width: 260px;
 	align-self: center;
 	margin-right: 135px;
 }
-.image-servises {
+.image-services {
 	align-self: center;
 }
-.main-servises {
+.main-services {
 	margin-bottom: 80px;
+	background-color: #f4f7f9;
+	padding: 50px 0;
+	margin-bottom: 35px;
+	line-height: 20px;
+	font-size: 12px;
+}
+.title-services {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 26px;
+}
+.main-services p {
+	font-family: 'PT Sans', sans-serif;
+}
+.item-service__title {
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 26px;
+	color: #32425c;
 }
 .main-about-left {
 	width: 550px;

@@ -304,26 +304,27 @@
 				</section>
 			</div>
 		</div>
-		<div class="main-servises">
+		<div class="main-services">
 			<div class="container">
-				<section class="servises">
-					<h3 class="title-servises">Сервисы</h3>
-					<p>Хороший интернет-магазин отличается от плохого не только ценами!<br>
-					Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными</p>
+				<section class="services">
+					<h3 class="title-services">Сервисы</h3>
+					<p class="services-promo-description">Хороший интернет-магазин отличается от плохого не только ценами!<br>
+					Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 				</section>
-				<section class="tabs-servises">
+				<section class="tabs-services">
 					<ul>
-						<li class="btm-servises"><button>Доставка</button></li>
-						<li class="btm-servises"><button>Гарантия</button></li>
-						<li class="btm-servises"><button>Кредит</button></li>
+						<li class="btm-services"><button>Доставка</button></li>
+						<li class="btm-services"><button>Гарантия</button></li>
+						<li class="btm-services"><button>Кредит</button></li>
 					</ul>
 				</section>
-				<section class="descr-servises">
-					<div class="descr-servise__item"><span class="title-descr-serivses">Доставка</span>
-					<p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+				<section class="descr-services">
+					<div class="descr-service__item"><span class="item-service__title">Доставка</span>
+					<p class="item-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
+					Ведь мы неплохо заработаем, <br>поднимая его на ваш этаж!</p>
 					</div>
 				</section>
-				<section class="image-servises">
+				<section class="image-services">
 					<img src="#" width="206" height="145" alt="Доставка">
 				</section>
 			</div>
