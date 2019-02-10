@@ -676,8 +676,14 @@ nav {
 .services {
 	width: 100%
 }
-.tabs-services {
+.tabs {
+	display: flex;
+}
+.tabs__nav {
 	margin-right: 80px;
+}
+.tabs__item {
+	display: flex;
 }
 .btm-services {
 	list-style: none;

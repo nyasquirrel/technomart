@@ -329,23 +329,47 @@
 					<p class="services-promo-description">Хороший интернет-магазин отличается от плохого не только ценами!<br>
 					Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
 				</section>
-				<section class="tabs-services">
-					<ul>
-						<li class="btm-services"><button>Доставка</button></li>
-						<li class="btm-services"><button>Гарантия</button></li>
-						<li class="btm-services"><button>Кредит</button></li>
-					</ul>
+				<section class="tabs">
+					<section class="tabs__nav">
+						<ul>
+							<li class="btm-services"><button>Доставка</button></li>
+							<li class="btm-services"><button>Гарантия</button></li>
+							<li class="btm-services"><button>Кредит</button></li>
+						</ul>
+					</section>
+					<section class="tabs__body">
+						<div class="tabs__item">
+							<div class="delivery-service">
+								<span class="item-service__title">Доставка</span>
+								<p class="item-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
+								Ведь мы неплохо заработаем, <br>поднимая его на ваш этаж!</p>
+							</div>
+							<figure class="image-services">
+								<img src="img/car.png" width="206" height="145" alt="Доставка">
+							</figure>
+						</div>
+						<!-- <div class="tabs__item">
+							<div class="delivery-service">
+								<span class="item-service__title">Доставка</span>
+								<p class="item-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
+								Ведь мы неплохо заработаем, <br>поднимая его на ваш этаж!</p>
+							</div>
+							<figure class="image-services">
+								<img src="img/car.png" width="206" height="145" alt="Доставка">
+							</figure>
+						</div>
+						<div class="tabs__item">
+							<div class="delivery-service">
+								<span class="item-service__title">Доставка</span>
+								<p class="item-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
+								Ведь мы неплохо заработаем, <br>поднимая его на ваш этаж!</p>
+							</div>
+							<figure class="image-services">
+								<img src="img/car.png" width="206" height="145" alt="Доставка">
+							</figure>
+						</div> -->
+					</section>
 				</section>
-				<section class="descr-services">
-					<div class="descr-service__item"><span class="item-service__title">Доставка</span>
-					<p class="item-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!<br>
-					Ведь мы неплохо заработаем, <br>поднимая его на ваш этаж!</p>
-					</div>
-					<div class="image-services">
-					<img src="img/car.png" width="206" height="145" alt="Доставка">
-					</div>
-				</section>
-				
 			</div>
 		</div>
 		<div class="main-about">
