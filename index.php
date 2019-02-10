@@ -182,8 +182,10 @@
 				</section>
 				<section class="popular-items">
 					<article class="pop-item">
-						<div class="pop-item__pop-image">
-							<img src="img/snippet-32961 copy 3.jpg"alt="Перфоратор BOSCH BFG 9000">
+						<div class="pop-item__top">
+							<figure class="pop-item__figure">
+								<img class="pop-item__img" src="img/snippet-32961 copy 3.jpg" alt="Перфоратор BOSCH BFG 9000">
+							</figure>
 							<div class="pop-item__buttons">
 								<button class="pop-item__in-cart">
 									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve"><g>
@@ -197,16 +199,20 @@
 								<button class="pop-item__in-bookmarks">в закладки</button>
 							</div>
 						</div>
-						<span class="item-name">Перфоратор BOSCH BFG 9000</span>
-						<span class="old-price">32 500 Р.</span>
-						<span class="price-block">
+						<div class="pop-item__bottom">
+							<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+							<span class="old-price">32 500 Р.</span>
+							<span class="price-block">
 							<span class="price">25 500 Р.</span>
 							<span class="triangle"></span>
 						</span>
+						</div>
 					</article>
 					<article class="pop-item">
-						<div class="pop-item__pop-image">
-							<img src="img/snippet-18927 copy 3.jpg" alt="Перфоратор BOSCH BFG 9000">
+						<div class="pop-item__top">
+							<figure class="pop-item__figure">
+								<img class="pop-item__img" src="img/snippet-32961 copy 3.jpg" alt="Перфоратор BOSCH BFG 9000">
+							</figure>
 							<div class="pop-item__buttons">
 								<button class="pop-item__in-cart">
 									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve"><g>
@@ -220,39 +226,47 @@
 								<button class="pop-item__in-bookmarks">в закладки</button>
 							</div>
 						</div>
-						<span class="item-name">Перфоратор BOSCH BFG 3000</span>
-						<span class="old-price">22 500 Р.</span>
-						<span class="price-block">
-							<span class="price">15 500 Р.</span>
-							<span class="triangle"></span>
-						</span>
-					</article>
-					<article class="pop-item">
-						<div class="pop-item__pop-image">
-							<img src="img/snippet-945 copy 2.jpg" alt="Перфоратор BOSCH BFG 9000">
-							<div class="pop-item__buttons">
-								<button class="pop-item__in-cart">
-									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve"><g>
-									<circle cx="4.5" cy="13.5" r="1.5"/>
-									<circle cx="12.5" cy="13.5" r="1.5"/>
-									<polygon points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"/>
-									</g>
-									</svg>
-									<span>купить</span>
-								</button>
-								<button class="pop-item__in-bookmarks">в закладки</button>
-							</div>
-						</div>
-						<span class="item-name">Перфоратор BOSCH BFG 6000</span>
-						<span class="old-price">30 500 Р.</span>
-						<span class="price-block">
+						<div class="pop-item__bottom">
+							<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+							<span class="old-price">32 500 Р.</span>
+							<span class="price-block">
 							<span class="price">25 500 Р.</span>
 							<span class="triangle"></span>
 						</span>
+						</div>
+					</article>
+					<article class="pop-item">
+						<div class="pop-item__top">
+							<figure class="pop-item__figure">
+								<img class="pop-item__img" src="img/snippet-32961 copy 3.jpg" alt="Перфоратор BOSCH BFG 9000">
+							</figure>
+							<div class="pop-item__buttons">
+								<button class="pop-item__in-cart">
+									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve"><g>
+									<circle cx="4.5" cy="13.5" r="1.5"/>
+									<circle cx="12.5" cy="13.5" r="1.5"/>
+									<polygon points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"/>
+									</g>
+									</svg>
+									<span>купить</span>
+								</button>
+								<button class="pop-item__in-bookmarks">в закладки</button>
+							</div>
+						</div>
+						<div class="pop-item__bottom">
+							<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+							<span class="old-price">32 500 Р.</span>
+							<span class="price-block">
+							<span class="price">25 500 Р.</span>
+							<span class="triangle"></span>
+						</span>
+						</div>
 					</article>
 					<article class="pop-item promo-stock">
-						<div class="pop-item__pop-image">
-							<img src="img/snippet-18927 copy 2.jpg" alt="Перфоратор BOSCH BFG 9000">
+						<div class="pop-item__top">
+							<figure class="pop-item__figure">
+								<img class="pop-item__img" src="img/snippet-32961 copy 3.jpg" alt="Перфоратор BOSCH BFG 9000">
+							</figure>
 							<div class="pop-item__buttons">
 								<button class="pop-item__in-cart">
 									<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="15px" height="15px" viewBox="0 0 15 15" enable-background="new 0 0 15 15" xml:space="preserve"><g>
@@ -261,15 +275,19 @@
 									<polygon points="15,2 4.07,2 3.648,0 0,0 0,2 2.031,2 4.016,11 15,11 15,9 9.441,9 15,6.951 	"/>
 									</g>
 									</svg>
-									<span>купить</span></button>
+									<span>купить</span>
+								</button>
 								<button class="pop-item__in-bookmarks">в закладки</button>
 							</div>
 						</div>
-						<span class="item-name">Перфоратор BOSCH BFG 2000</span>
-						<span class="price-block">
-							<span class="price">12 500 Р.</span>
+						<div class="pop-item__bottom">
+							<span class="item-name">Перфоратор BOSCH BFG 9000</span>
+							<!--<span class="old-price">32 500 Р.</span>-->
+							<span class="price-block">
+							<span class="price">25 500 Р.</span>
 							<span class="triangle"></span>
 						</span>
+						</div>
 					</article>
 				</section>
 				<section class="populars">
