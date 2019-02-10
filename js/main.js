@@ -29,8 +29,3 @@ function toggleTab(e) {
     $(currentBodyItem).addClass(activeBodyItemClass);
     currentNavItem.addClass(activeNavItemClass);
 }
-/*$('.pop-manufacturer').click(function(){
-	$('.pop-manufacturer').css({
-		'opacity': '0.5'
-	})
-});*/

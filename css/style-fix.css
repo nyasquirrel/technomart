@@ -715,23 +715,6 @@ nav {
 .tabs__item--active {
 	display: flex;
 }
-.btm-services {
-	list-style: none;
-}
-.btm-services button {
-	padding: 15px 20px;
-	min-width: 240px;
-	text-align: left;
-	font-size: 21px;
-	line-height: 30px;
-	border: none;
-	background-color: #32425c;
-	color: #fff;
-	border-bottom: 1px solid #4e637c;
-}
-.btm-services:last-child button {
-	border-bottom: none;
-}
 .image-services {
 	position: absolute;
 	align-self: center;
