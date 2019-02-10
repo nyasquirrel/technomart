@@ -572,8 +572,8 @@ nav {
 }
 .pop-item:hover,
 .pop-manufacturer:hover {
+	border: 1px solid transparent;
 	box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
-	border: 0;
 }
 .pop-item:hover img {
 	visibility: hidden;
@@ -585,11 +585,14 @@ nav {
 	justify-content: center;
 	height: 100%;
 	align-items: center;
+	font-size: 14px;
+	line-height: 18px;
 }
 .pop-item__in-cart,
 .pop-item__in-bookmarks {
 	box-sizing: border-box;
 	width: 135px;
+	padding: 11px 0;
 }
 .pop-item:hover button {
 	visibility: visible;
