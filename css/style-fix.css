@@ -490,8 +490,7 @@ nav {
 }
 .popular-items {
 	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-between;
+	flex-wrap: wrap;
 	width: 100%;
 	margin-bottom: 20px;
 }
@@ -504,6 +503,11 @@ nav {
 	outline: 1px solid #eaeaea;
 	font-family: "PT Sans Bold", sans-serif;
 	padding: 20px 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.pop-item:nth-child(4n) {
+	margin-right: 0;
 }
 .pop-item__top {
 	position: relative;

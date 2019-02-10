@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Главная | Техномарт</title>
+		<title>Главная | Мой Техномарт</title>
 		<link rel="stylesheet" href="css\normalize.css">
 		<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.css">
 		<link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.css">
