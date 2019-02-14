@@ -66,7 +66,9 @@ em, i {
 	padding: 0;
 	border: none;
 	background-color: inherit;
-	transition: 0.3s;
+}
+.main-search button:focus {
+	outline: none;
 }
 .icon-search {
 	fill: rgba(255, 255, 255, 0.3);
