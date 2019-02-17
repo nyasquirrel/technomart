@@ -514,7 +514,7 @@ nav {
 	margin-right: 20px;
 	margin-bottom: 20px;
 }
-.item:nth-child(4n) {
+.popular-items .item:nth-child(4n) {
 	margin-right: 0;
 }
 .item__top {
@@ -1020,8 +1020,131 @@ footer {
 }
 .wrap-content {
 	display: flex;
+	font-family: 'PT Sans', sans-serif;
 }
 .filter {
-	width: 200px;
+	width: 220px;
 	margin-right: 20px;
+	text-transform: uppercase;
+	flex: 1 0 auto;
+	overflow: hidden;
+}
+.listing {
+	display: flex;
+	flex-wrap: wrap;
+}
+.listing .item:nth-child(3n) {
+	margin-right: 0;
+}
+.bg-auxiliary {
+	background-color: #f7f3ec;
+	border-radius: 5px;
+}
+.filter__title {
+	padding: 10px 20px;
+	font-size: 13px;
+	line-height: 18px;
+}
+.filter fieldset {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #e5e5e5;
+	margin-bottom: 5px;
+}
+.filter legend {
+	padding: 13px 0 12px;
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 30px;
+}
+.filter label {
+	font-size: 15px;
+	line-height: 20px;
+	padding-left: 35px;
+	position: relative;
+}
+.filter ul {
+	margin: 0;
+	padding: 0;
+}
+.price__content {
+	padding: 30px 20px;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	margin-bottom: 10px;
+}
+.price__value {
+	display: flex;
+}
+.price__value div {
+	padding: 10px;
+	width: 95px;
+	box-sizing: border-box;
+}
+.price__value input {
+	max-width: 75px;
+	text-align: center;
+	border: 0;
+	background-color: inherit;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 17px;
+	line-height: 18px;
+}
+.price__value input:focus {
+	outline: none;
+}
+.price__value-separate {
+	display: block;
+	width: 10px;
+	height: 1px;
+	background-color: #000;
+	align-self: center;
+	margin: 0 10px;
+}
+.manufacturers__item {
+	margin-bottom: 20px;
+	list-style: none;
+}
+.manufacturers__item:last-child {
+	margin-bottom: 0;
+}
+.filter__input--checkbox {
+	display: none;
+}
+.filter__checkbox {
+	text-overflow: ellipsis;
+	cursor: pointer;
+}
+.checkbox-indicator {
+	position: absolute;
+	content: "";
+	max-width: 27px;
+	height: 23px;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.checkbox-off {
+	fill: #c5c5c5;
+}
+.checkbox-on {
+	display: none;
+	fill: #c5c5c5;
+}
+.filter__checkbox:hover .checkbox-off {
+	fill: #b5b5b5;
+}
+.filter__input--checkbox:checked + .filter__checkbox .checkbox-off {
+	display: none;
+}
+.filter__input--checkbox:checked + .filter__checkbox .checkbox-on {
+	display: block;
+}
+.filter__checkbox:hover .checkbox-on {
+	fill: #b5b5b5;
+}
+.filter__input--checkbox:disabled + .filter__checkbox {
+	opacity: 0.4;
 }

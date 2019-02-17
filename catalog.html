@@ -149,18 +149,75 @@
 			<div class="container">
 				<section class="headline-inner"><h1 class="headline-catalog">Перфораторы</h1></section>
 				<div class="wrap-content">
-					<section class="filter">
-						<div class="filter__title">Фильтр</div>
-						<fieldset class="filter__price">
-							<leged>Цена:
-								<div class="price__content"><input type="range" class="price__range"></div>
+					<aside class="filter">
+						<form method="get">
+							<div class="filter__title bg-auxiliary">Фильтр:</div>
+							<fieldset class="filter__price">
+								<legend>Цена:</legend>
+								<div class="price__content bg-auxiliary"><input type="range" class="price__range"></div>
 								<div class="price__value">
-									<div class="price__content price__value-min"><input type="number" value="0"></div>
-									<div class="price__content price__value-max"><input type="number" value="30000"></div>
+									<div class="price__value-min bg-auxiliary"><input type="text" value="0"></div>
+									<span class="price__value-separate"></span>
+									<div class="price__value-max bg-auxiliary"><input type="text" value="30000"></div>
 								</div>
-							</leged>
-						</fieldset>
-					</section>
+							</fieldset>
+							<fieldset class="filter__manufacturers">
+								<legend>Производители:</legend>
+									<ul>
+										<li class="manufacturers__item">
+											<input type="checkbox" class="filter__input--checkbox" id="filter-manufacturers-bosch" name="Bosch">
+											<label for="filter-manufacturers-bosch" class="filter__checkbox">
+												<span class="checkbox-indicator">
+													<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" class="checkbox-off"><path d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+													<svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23" class="checkbox-on"><path d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
+												</span>
+												Bosch
+											</label>
+										</li>
+										<li class="manufacturers__item">
+											<input type="checkbox" class="filter__input--checkbox" id="filter-manufacturers-interskol" name="Интерскол">
+											<label for="filter-manufacturers-interskol" class="filter__checkbox">
+												<span class="checkbox-indicator">
+													<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" class="checkbox-off"><path d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+													<svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23" class="checkbox-on"><path d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
+												</span>
+												Интерскол
+											</label>
+										</li>
+										<li class="manufacturers__item">
+											<input type="checkbox" class="filter__input--checkbox" id="filter-manufacturers-makita" name="Makita">
+											<label for="filter-manufacturers-makita" class="filter__checkbox">
+												<span class="checkbox-indicator">
+													<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" class="checkbox-off"><path d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+													<svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23" class="checkbox-on"><path d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
+												</span>
+												Makita
+											</label>
+										</li>
+										<li class="manufacturers__item">
+											<input type="checkbox" class="filter__input--checkbox" id="filter-manufacturers-dewalt" name="Dewalt">
+											<label for="filter-manufacturers-dewalt" class="filter__checkbox">
+												<span class="checkbox-indicator">
+													<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" class="checkbox-off"><path d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+													<svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23" class="checkbox-on"><path d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
+												</span>
+												Dewalt
+											</label>
+										</li>
+										<li class="manufacturers__item">
+											<input type="checkbox" class="filter__input--checkbox" id="filter-manufacturers-hitachi" name="Hitachi">
+											<label for="filter-manufacturers-hitachi" class="filter__checkbox">
+												<span class="checkbox-indicator">
+													<svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" class="checkbox-off"><path d="M20 2c.542 0 1 .458 1 1v17c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h17m0-2H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3V3c0-1.65-1.35-3-3-3z"/></svg>
+													<svg xmlns="http://www.w3.org/2000/svg" width="27" height="23" viewBox="0 0 27 23" class="checkbox-on"><path d="M7.285 7.486l-2.829 2.829 7.783 7.783L26.171 4.166l-2.828-2.829-11.104 11.102z"/><path d="M21 20c0 .542-.458 1-1 1H3c-.542 0-1-.458-1-1V3c0-.542.458-1 1-1h16.908L21.493.415A2.96 2.96 0 0 0 20 0H3C1.35 0 0 1.35 0 3v17c0 1.65 1.35 3 3 3h17c1.65 0 3-1.35 3-3v-9.829l-2 2V20z"/></svg>
+												</span>
+											Hitachi
+											</label>
+										</li>
+									</ul>
+							</fieldset>
+						</form>
+					</aside>
 					<section class="listing-wrap">
 						<div class="listing__sort"></div>
 						<section class="listing">
