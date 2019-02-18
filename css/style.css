@@ -1022,6 +1022,7 @@ footer {
 	margin: 0;
 	flex-wrap: wrap;
 	font-family: 'PT Sans', sans-serif;
+	padding: 0;
 }
 .breadcrumbs > * {
 	margin-right: 15px;
@@ -1034,6 +1035,7 @@ footer {
 	line-height: 18px;
 	text-decoration: none;
 	color: #000;
+	text-transform: uppercase;
 }
 .separator,
 .breadcrumbs__item {
@@ -1054,6 +1056,7 @@ footer {
 	color: #32425c;
 	font-weight: normal;
 	margin: 30px 0;
+	text-transform: uppercase;
 }
 .wrap-content {
 	display: flex;
@@ -1261,29 +1264,32 @@ footer {
 .sort__toggle .toggle__up {
 	position: absolute;
 	left: 0;
-	border-left: 7px solid transparent;
-	border-right: 7px solid transparent;
-	border-bottom: 14px solid #c5c5c5;
+	bottom: 5px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-bottom: 12px solid #c5c5c5;
 }
 .sort__toggle .toggle__down {
 	position: absolute;
 	right: 0;
-	border-left: 7px solid transparent;
-	border-right: 7px solid transparent;
-	border-top: 14px solid #c5c5c5;
-	border-bottom: none;
+	bottom: 5px;
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 11px solid #c5c5c5;
+	border-bottom: 0;
 }
 .sort__toggle .toggle__up:hover {
-	border-bottom: 14px solid #000;
+	border-bottom: 11px solid #000;
 }
 .sort__toggle .toggle__up:active,
 .sort__toggle .toggle__up--active {
-	border-bottom: 14px solid #ee3643;
+	border-bottom: 11px solid #ee3643;
 }
 .sort__toggle .toggle__down:hover {
-	border-top: 14px solid #000;
+	border-top: 11px solid #000;
+	border-bottom: 0;
 }
 .sort__toggle .toggle__down:active,
 .sort__toggle .toggle__down--active {
-	border-top: 14px solid #ee3643;
+	border-top: 11px solid #ee3643;
 }
