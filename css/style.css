@@ -1500,6 +1500,7 @@ footer {
 	right: 10px;
 	width: 30px;
 	height: 30px;
+	cursor: pointer;
 }
 .modal-close::after,
 .modal-close::before {
@@ -1563,4 +1564,7 @@ footer {
 .cart-add__btn-continue:active {
 	background-color: #fff;
 	color: #c5c5c5;
+}
+.modal-show {
+	display: block;
 }
