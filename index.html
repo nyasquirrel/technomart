@@ -11,7 +11,6 @@
 		<link rel="stylesheet" href="libs/owlcarousel/assets/owl.theme.default.css">
 		<link rel="stylesheet" href="libs/owlcarousel/assets/owl.carousel.css">
 		<link rel="stylesheet" href="css/style.css">
-		
 	</head>
 	<body>
 		<header class="main-header">
@@ -24,8 +23,8 @@
 					</div>
 					<div class="main-search">
 						<form class="form-search" method="get">
-							<input type="search" name="search" placeholder="Поиск:">
-							<button>
+							<input type="search" name="search" placeholder="Поиск:" class="form-search__input">
+							<button class="form-search__btn">
 								<svg class="icon-search" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"><path d="M17 15.586l-3.542-3.542A7.465 7.465 0 0 0 15 7.5 7.5 7.5 0 1 0 7.5 15c1.71 0 3.282-.579 4.544-1.542L15.586 17 17 15.586zM2 7.5C2 4.467 4.467 2 7.5 2 10.532 2 13 4.467 13 7.5c0 3.032-2.468 5.5-5.5 5.5A5.506 5.506 0 0 1 2 7.5z"/></svg>
 							</button>
 						</form>
@@ -409,7 +408,7 @@
 					<a class="main-about-right__link-map" href="#">
 						<img src="img/contacts-map.png" height="157" width="300">
 					</a>
-					<a href="" class="red-btn contact-us-btn">Заблудились? Напишите нам</a>
+					<a href="#write-us" class="red-btn contact-us-btn">Заблудились? Напишите нам</a>
 				</section>
 			</div>
 		</div>
@@ -481,5 +480,41 @@
 		<script src="libs/owlcarousel/owl.carousel.min.js"></script>
 		<script src="js/main.js"></script>
 		</footer>
+		<section class="write-us modal">
+			<form method="post" class="write-us__form">
+				<div class="write-us__form-inner">
+					<label for="name" class="write-us__name">Ваше имя:<br>
+					<input type="text" id="name" placeholder="Представьтесь, пожалуйста" name="Name">
+					</label>
+					<label for="email" class="write-us__email">Ваш e-mail:<br>
+					<input id="email" type="mail" placeholder="Для отправки ответа" name="Mail">
+					</label>
+					<label for="text" class="write-us__text">Текст письма:<br>
+					<textarea id="text" placeholder="В свободной форме" name="text"></textarea>
+					</label>
+				</div>
+				<div class="write-us__btn-inner">
+					<button class="red-btn whrite-us__btn">Отправить</button>
+				</div>
+			</form>
+			<span class="modal-close"></span>
+		</section>
+		<section class="map-popup modal">
+			<img src="img/modal-map.jpg">
+			<span class="modal-close"></span>
+		</section>
+		<section class="cart-add modal">
+			<div class="cart-add__message-inner">
+				<img src="img/added-to-cart.jpg" alt="Добавлено в корзину">
+				<span class="cart-add__message">
+					Товар добавлен в корзину!
+				</span>
+			</div>
+			<div class="cart-add__btn-inner">
+				<a href="#cart" class="red-btn cart-add__btn cart-add__btn-checkout">Оформить заказ</a>
+				<a href="#continue" class="red-btn cart-add__btn cart-add__btn-continue">Продолжить покупки</a>
+			</div>
+			<span class="modal-close"></span>
+		</section>
 	</body>
 </html>
